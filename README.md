@@ -15,3 +15,13 @@ autocmd FileType sh setlocal listchars=tab:│\ ,trail:·,extends:»,precedes:«
 autocmd FileType sh setlocal list
 
 ```
+#add commect character befire multiple lines
+
+```
+- press ctrl + v [for visual block]
+- Select lines
+- press shift + I [this will move the cursor to the beginning of the first line]
+- Type # and press esc key
+- This will add # symbol infront of all selected lines.
+
+```
